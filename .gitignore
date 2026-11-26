@@ -1,0 +1,23 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+.venv/
+venv/
+.env
+.DS_Store
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.log
+.streamlit/secrets.toml
+
+# Regenerable parquet intermediates (raw CSVs + trained artifacts stay)
+data/processed/*.parquet
+data/processed/*.csv
+!data/processed/.gitkeep
+!models/.gitkeep
+!outputs/.gitkeep
