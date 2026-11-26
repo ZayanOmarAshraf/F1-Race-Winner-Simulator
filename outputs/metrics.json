@@ -1,0 +1,295 @@
+{
+  "splits": {
+    "train": {
+      "uniform": {
+        "n_rows": 4297,
+        "n_races": 198,
+        "top1_winner": 0.3686868686868687,
+        "top3_winner": 0.5303030303030303,
+        "log_loss": 0.18665134165902134,
+        "brier": 0.0439420636767623,
+        "prob_sum_mean": 1.0,
+        "prob_sum_max_abs_err": 3.3306690738754696e-16,
+        "winners_per_race_max": 1,
+        "winners_per_race_min": 1
+      },
+      "soft_pole": {
+        "n_rows": 4297,
+        "n_races": 198,
+        "top1_winner": 0.494949494949495,
+        "top3_winner": 0.7121212121212122,
+        "log_loss": 0.14136726227346413,
+        "brier": 0.034224005466128096,
+        "prob_sum_mean": 1.0,
+        "prob_sum_max_abs_err": 2.220446049250313e-16,
+        "winners_per_race_max": 1,
+        "winners_per_race_min": 1
+      },
+      "champ_leader": {
+        "n_rows": 4297,
+        "n_races": 198,
+        "top1_winner": 0.35353535353535354,
+        "top3_winner": 0.6565656565656566,
+        "log_loss": 0.16229963828277244,
+        "brier": 0.039257254510614424,
+        "prob_sum_mean": 1.0,
+        "prob_sum_max_abs_err": 4.440892098500626e-16,
+        "winners_per_race_max": 1,
+        "winners_per_race_min": 1
+      },
+      "grid_hist": {
+        "n_rows": 4297,
+        "n_races": 198,
+        "top1_winner": 0.5050505050505051,
+        "top3_winner": 0.9040404040404041,
+        "log_loss": 0.09852299623219567,
+        "brier": 0.029876392373364227,
+        "prob_sum_mean": 1.0,
+        "prob_sum_max_abs_err": 2.220446049250313e-16,
+        "winners_per_race_max": 1,
+        "winners_per_race_min": 1
+      },
+      "logreg": {
+        "n_rows": 4297,
+        "n_races": 198,
+        "top1_winner": 0.6262626262626263,
+        "top3_winner": 0.9191919191919192,
+        "log_loss": 0.10321185751313584,
+        "brier": 0.031178693316375627,
+        "prob_sum_mean": 1.0,
+        "prob_sum_max_abs_err": 4.440892098500626e-16,
+        "winners_per_race_max": 1,
+        "winners_per_race_min": 1
+      },
+      "rf": {
+        "n_rows": 4297,
+        "n_races": 198,
+        "top1_winner": 0.8333333333333334,
+        "top3_winner": 0.9949494949494949,
+        "log_loss": 0.05939388324765713,
+        "brier": 0.017203709672190554,
+        "prob_sum_mean": 1.0,
+        "prob_sum_max_abs_err": 2.220446049250313e-16,
+        "winners_per_race_max": 1,
+        "winners_per_race_min": 1
+      },
+      "xgb": {
+        "n_rows": 4297,
+        "n_races": 198,
+        "top1_winner": 0.98989898989899,
+        "top3_winner": 1.0,
+        "log_loss": 0.03124199132365531,
+        "brier": 0.008582632912458227,
+        "prob_sum_mean": 1.0,
+        "prob_sum_max_abs_err": 2.220446049250313e-16,
+        "winners_per_race_max": 1,
+        "winners_per_race_min": 1
+      }
+    },
+    "val": {
+      "uniform": {
+        "n_rows": 780,
+        "n_races": 39,
+        "top1_winner": 0.48717948717948717,
+        "top3_winner": 0.5128205128205128,
+        "log_loss": 0.19851524334587262,
+        "brier": 0.04749999999999999,
+        "prob_sum_mean": 1.0,
+        "prob_sum_max_abs_err": 0.0,
+        "winners_per_race_max": 1,
+        "winners_per_race_min": 1
+      },
+      "soft_pole": {
+        "n_rows": 780,
+        "n_races": 39,
+        "top1_winner": 0.5641025641025641,
+        "top3_winner": 0.717948717948718,
+        "log_loss": 0.13879337894868718,
+        "brier": 0.033841089502971475,
+        "prob_sum_mean": 1.0,
+        "prob_sum_max_abs_err": 1.1102230246251565e-16,
+        "winners_per_race_max": 1,
+        "winners_per_race_min": 1
+      },
+      "champ_leader": {
+        "n_rows": 780,
+        "n_races": 39,
+        "top1_winner": 0.46153846153846156,
+        "top3_winner": 0.6666666666666666,
+        "log_loss": 0.16053876440474768,
+        "brier": 0.03956477732793522,
+        "prob_sum_mean": 1.0,
+        "prob_sum_max_abs_err": 0.0,
+        "winners_per_race_max": 1,
+        "winners_per_race_min": 1
+      },
+      "grid_hist": {
+        "n_rows": 780,
+        "n_races": 39,
+        "top1_winner": 0.5384615384615384,
+        "top3_winner": 0.7948717948717948,
+        "log_loss": 0.12334330464863545,
+        "brier": 0.03407674178725328,
+        "prob_sum_mean": 1.0,
+        "prob_sum_max_abs_err": 1.1102230246251565e-16,
+        "winners_per_race_max": 1,
+        "winners_per_race_min": 1
+      },
+      "logreg": {
+        "n_rows": 780,
+        "n_races": 39,
+        "top1_winner": 0.6410256410256411,
+        "top3_winner": 0.8461538461538461,
+        "log_loss": 0.11368190925235921,
+        "brier": 0.03264061258276881,
+        "prob_sum_mean": 1.0,
+        "prob_sum_max_abs_err": 1.1102230246251565e-16,
+        "winners_per_race_max": 1,
+        "winners_per_race_min": 1
+      },
+      "rf": {
+        "n_rows": 780,
+        "n_races": 39,
+        "top1_winner": 0.6923076923076923,
+        "top3_winner": 0.8717948717948718,
+        "log_loss": 0.12320359157489853,
+        "brier": 0.023252067315563132,
+        "prob_sum_mean": 1.0,
+        "prob_sum_max_abs_err": 2.220446049250313e-16,
+        "winners_per_race_max": 1,
+        "winners_per_race_min": 1
+      },
+      "xgb": {
+        "n_rows": 780,
+        "n_races": 39,
+        "top1_winner": 0.7692307692307693,
+        "top3_winner": 0.8974358974358975,
+        "log_loss": 0.09235365387906314,
+        "brier": 0.021929316214236286,
+        "prob_sum_mean": 1.0,
+        "prob_sum_max_abs_err": 1.1102230246251565e-16,
+        "winners_per_race_max": 1,
+        "winners_per_race_min": 1
+      }
+    },
+    "test": {
+      "uniform": {
+        "n_rows": 2300,
+        "n_races": 113,
+        "top1_winner": 0.02654867256637168,
+        "top3_winner": 0.02654867256637168,
+        "log_loss": 0.19590867580962862,
+        "brier": 0.04671312669024339,
+        "prob_sum_mean": 1.0000000000000002,
+        "prob_sum_max_abs_err": 2.220446049250313e-16,
+        "winners_per_race_max": 1,
+        "winners_per_race_min": 1
+      },
+      "soft_pole": {
+        "n_rows": 2300,
+        "n_races": 113,
+        "top1_winner": 0.5929203539823009,
+        "top3_winner": 0.6194690265486725,
+        "log_loss": 0.1315929887966049,
+        "brier": 0.03192938977127159,
+        "prob_sum_mean": 1.0,
+        "prob_sum_max_abs_err": 2.220446049250313e-16,
+        "winners_per_race_max": 1,
+        "winners_per_race_min": 1
+      },
+      "champ_leader": {
+        "n_rows": 2300,
+        "n_races": 113,
+        "top1_winner": 0.4424778761061947,
+        "top3_winner": 0.4690265486725664,
+        "log_loss": 0.15820283196032586,
+        "brier": 0.03889509949115212,
+        "prob_sum_mean": 1.0,
+        "prob_sum_max_abs_err": 2.220446049250313e-16,
+        "winners_per_race_max": 1,
+        "winners_per_race_min": 1
+      },
+      "grid_hist": {
+        "n_rows": 2300,
+        "n_races": 113,
+        "top1_winner": 0.584070796460177,
+        "top3_winner": 0.8672566371681416,
+        "log_loss": 0.1169876407321874,
+        "brier": 0.030371496454492133,
+        "prob_sum_mean": 1.0,
+        "prob_sum_max_abs_err": 2.220446049250313e-16,
+        "winners_per_race_max": 1,
+        "winners_per_race_min": 1
+      },
+      "logreg": {
+        "n_rows": 2300,
+        "n_races": 113,
+        "top1_winner": 0.6637168141592921,
+        "top3_winner": 0.9469026548672567,
+        "log_loss": 0.11878732118601637,
+        "brier": 0.03492988470528116,
+        "prob_sum_mean": 1.0,
+        "prob_sum_max_abs_err": 2.220446049250313e-16,
+        "winners_per_race_max": 1,
+        "winners_per_race_min": 1
+      },
+      "rf": {
+        "n_rows": 2300,
+        "n_races": 113,
+        "top1_winner": 0.7433628318584071,
+        "top3_winner": 0.9380530973451328,
+        "log_loss": 0.07641280235434567,
+        "brier": 0.02256441698634325,
+        "prob_sum_mean": 1.0,
+        "prob_sum_max_abs_err": 2.220446049250313e-16,
+        "winners_per_race_max": 1,
+        "winners_per_race_min": 1
+      },
+      "xgb": {
+        "n_rows": 2300,
+        "n_races": 113,
+        "top1_winner": 0.6814159292035398,
+        "top3_winner": 0.9380530973451328,
+        "log_loss": 0.07808700445028989,
+        "brier": 0.023649970802009517,
+        "prob_sum_mean": 1.0,
+        "prob_sum_max_abs_err": 2.220446049250313e-16,
+        "winners_per_race_max": 1,
+        "winners_per_race_min": 1
+      }
+    }
+  },
+  "checks": {
+    "one_winner_per_race": true,
+    "prob_sums": {
+      "uniform": {
+        "mean": 1.0000000000000002,
+        "max_abs_err": 2.220446049250313e-16
+      },
+      "soft_pole": {
+        "mean": 1.0,
+        "max_abs_err": 2.220446049250313e-16
+      },
+      "champ_leader": {
+        "mean": 1.0,
+        "max_abs_err": 2.220446049250313e-16
+      },
+      "grid_hist": {
+        "mean": 1.0,
+        "max_abs_err": 2.220446049250313e-16
+      },
+      "logreg": {
+        "mean": 1.0,
+        "max_abs_err": 2.220446049250313e-16
+      },
+      "rf": {
+        "mean": 1.0,
+        "max_abs_err": 2.220446049250313e-16
+      },
+      "xgb": {
+        "mean": 1.0,
+        "max_abs_err": 2.220446049250313e-16
+      }
+    }
+  }
+}

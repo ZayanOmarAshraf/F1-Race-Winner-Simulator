@@ -1,0 +1,25 @@
+{
+  "feature_cols": [
+    "grid_pos",
+    "pit_lane_start",
+    "quali_position",
+    "gap_to_pole_sec",
+    "driver_avg_finish_5",
+    "driver_win_rate_10",
+    "constructor_form_5",
+    "circuit_win_rate_expanding",
+    "driver_champ_pos_prev",
+    "constructor_champ_pos_prev"
+  ],
+  "train_years": [
+    2010,
+    2019
+  ],
+  "n_train": 4297,
+  "n_wins_train": 198,
+  "models": [
+    "logreg",
+    "rf",
+    "xgb"
+  ]
+}
